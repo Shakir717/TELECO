@@ -578,5 +578,6 @@ class _CustomSingleCheckedBoxListState
   }
 }
 
+// update
 final quantityProvider = StateProvider<int>((ref) => 1);
 final shippingAddressProvider = StateProvider<String>((ref) => '');
