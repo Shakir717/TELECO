@@ -1,6 +1,6 @@
-# teleco
+# TELECO
 
-A new Flutter project.
+A Demo project.
 
 ## Getting Started
 
