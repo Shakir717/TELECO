@@ -19,8 +19,9 @@ class ProductDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme=Theme.of(context);
-    return CustomScaffoldWidget(
-    body: SingleChildScrollView(
+    return Scaffold(
+      appBar: AppBar(elevation: 0,),
+      body: SingleChildScrollView(
       child: Column(
         children: [
           Padding(

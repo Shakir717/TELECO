@@ -5,6 +5,7 @@ import 'package:teleco/routing/app_router.dart';
 
 import '../constants/app_assets.dart';
 import '../constants/colors_data.dart';
+import '../constants/string_values.dart';
 import '../features/authentications/sign_in/presentation/sign_in_page.dart';
 import 'alert_dialogs.dart';
 import 'custom_drawar.dart';
@@ -35,12 +36,8 @@ class CustomScaffoldWidget extends StatelessWidget {
           },icon: ImageIcon(AssetImage(AppAsset.menuIcon)),),
         ],
         //title: Text(LocaleKeys.appTitle.tr()),
-       titleSpacing: 0,
-        title: GestureDetector(
-            onTap: (){
-              context.goNamed(AppRoute.home.name);
-            },
-            child: CustomImage(imageUrl: AppAsset.appLogoMain,width:150,fit: BoxFit.fitWidth,)),
+       titleSpacing: 14,
+        title: Text(Strings.teleco),
       ),
       body:body,
     );

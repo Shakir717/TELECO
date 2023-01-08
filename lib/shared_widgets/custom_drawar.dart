@@ -75,9 +75,7 @@ class MainDrawer extends StatelessWidget {
 
               }, text:'عربى',),
             Spacer(),
-            Align(
-                alignment: Alignment.bottomCenter,
-                child: Image.asset(AppAsset.appLogoWhite,width: 200,fit: BoxFit.fitWidth,color: kWhite.withOpacity(.1),)),
+
             gapH20
           ],
         ),

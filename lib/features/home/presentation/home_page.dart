@@ -167,7 +167,7 @@ class HeaderWidget extends StatelessWidget {
     return Column(children: [
       Divider(color: kWhite,),
       gapH20,
-      CustomImage(imageUrl: AppAsset.appLogoMain,width: 200,height: 30,fit: BoxFit.fitWidth,),
+      Text(Strings.teleco,style: theme.textTheme.headline5,),
       gapH20,
       Padding(
         padding: const EdgeInsets.all(8.0),

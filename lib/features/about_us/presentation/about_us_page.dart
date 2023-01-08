@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:teleco/constants/app_assets.dart';
 import 'package:teleco/constants/app_size.dart';
 import 'package:teleco/features/home/presentation/home_page.dart';
-import 'package:teleco/shared_widgets/appBar.dart';
-import 'package:teleco/shared_widgets/custom_image.dart';
-import 'package:teleco/shared_widgets/custom_scaffold_widget.dart';
-
 import '../../../constants/string_values.dart';
 
 class AboutUSPage extends StatelessWidget {
@@ -14,7 +10,8 @@ class AboutUSPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme=Theme.of(context);
-    return CustomScaffoldWidget(
+    return Scaffold(
+      appBar: AppBar(elevation: 0,),
       body: SingleChildScrollView(
         child: Column(
           children: [

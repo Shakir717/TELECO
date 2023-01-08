@@ -68,7 +68,8 @@ class _BuyNewSimCardPageState extends ConsumerState<BuyNewSimCardPage> {
     final quantity = ref.watch(quantityProvider);
     final theme = Theme.of(context);
     final shippingAddress = ref.watch(shippingAddressProvider);
-    return CustomScaffoldWidget(
+    return Scaffold(
+      appBar: AppBar(elevation: 0,),
       body: SingleChildScrollView(
         child: Column(
           children: [

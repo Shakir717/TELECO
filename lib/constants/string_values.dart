@@ -77,7 +77,7 @@ class Strings {
       buyNewSimCard = 'Buy New Sim Card',
       quickRecharge = 'Quick Recharge',
       welcomeTo = 'Welcome to',
-      telecoMobile = 'teleco Mobile',
+      telecoMobile = 'Teleco Mobile',
       sliderText5 = '24 hour multi lingual help desk',
       sliderText4 = 'We ship everywhere',
       duration = 'Duration',

@@ -19,7 +19,8 @@ class ProductListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme=Theme.of(context);
-    return CustomScaffoldWidget(
+    return Scaffold(
+      appBar: AppBar(elevation: 0,),
      body: SingleChildScrollView(
        child: Column(children: [
          ListView.builder(
