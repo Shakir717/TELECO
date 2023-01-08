@@ -35,7 +35,7 @@ class MyApp extends ConsumerWidget {
       routeInformationParser: goRouter.routeInformationParser,
       debugShowCheckedModeBanner: false,
       title: '',
-      theme: AppTheme.instance.lightTheme(),
+      theme: AppTheme.instance.darkTheme(),
       localizationsDelegates:context.localizationDelegates ,
       supportedLocales: context.supportedLocales,
       locale: context.locale,

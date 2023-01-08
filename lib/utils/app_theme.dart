@@ -8,10 +8,10 @@ class AppTheme {
 
   static final instance= AppTheme._();
 
-  ThemeData lightTheme() {
+  ThemeData darkTheme() {
     final ThemeData base = ThemeData.light();
     return base.copyWith(
-
+      useMaterial3: true,
       /// overall app color
       colorScheme: base.colorScheme.copyWith(
           primary: kNavyBlue,
@@ -29,6 +29,9 @@ class AppTheme {
       hintColor: kLightBlue,
       errorColor: kRed,
       indicatorColor: kWhite,
+
+
+      appBarTheme:_appBarTheme(base.appBarTheme) ,
 
       /// Decorate the inputs
       inputDecorationTheme: _inputDecorationTheme(base),
@@ -62,7 +65,14 @@ class AppTheme {
     );
   }
 
-
+  /// build appbar theme
+  AppBarTheme _appBarTheme(AppBarTheme base){
+    return base.copyWith(
+      backgroundColor:kNavyBlue,
+      titleTextStyle: TextStyle(color: kWhite,fontWeight:FontWeight.bold,fontSize: 18),
+      iconTheme: IconThemeData(color: kWhite)
+    );
+  }
 
   /// Build Text Theme
   TextTheme _buildTextTheme(TextTheme base) {

@@ -21,8 +21,7 @@ class CustomScaffoldWidget extends StatelessWidget {
       endDrawer: MainDrawer(),
       key: _key,
       appBar:AppBar(
-        shadowColor: kWhite,
-        elevation: .3,
+
         actions: [
           IconButton(onPressed:(){
             widgetClassDialog(context: context,
