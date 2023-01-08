@@ -2,15 +2,15 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
-import 'package:telfoni/constants/app_assets.dart';
-import 'package:telfoni/constants/app_size.dart';
-import 'package:telfoni/constants/colors_data.dart';
-import 'package:telfoni/constants/common_data.dart';
-import 'package:telfoni/routing/app_router.dart';
-import 'package:telfoni/shared_widgets/custom_card_view.dart';
-import 'package:telfoni/shared_widgets/custom_carousel.dart';
-import 'package:telfoni/shared_widgets/custom_image.dart';
-import 'package:telfoni/shared_widgets/custom_scaffold_widget.dart';
+import 'package:teleco/constants/app_assets.dart';
+import 'package:teleco/constants/app_size.dart';
+import 'package:teleco/constants/colors_data.dart';
+import 'package:teleco/constants/common_data.dart';
+import 'package:teleco/routing/app_router.dart';
+import 'package:teleco/shared_widgets/custom_card_view.dart';
+import 'package:teleco/shared_widgets/custom_carousel.dart';
+import 'package:teleco/shared_widgets/custom_image.dart';
+import 'package:teleco/shared_widgets/custom_scaffold_widget.dart';
 import '../../../constants/string_values.dart';
 
 class HomePage extends StatelessWidget {
@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
                 SizedBox(width: double.maxFinite,),
                 Text(Strings.welcomeTo,style: theme.textTheme.headline5,),
                 gapH12,
-                Text(Strings.telfoniMobile,style: theme.textTheme.headline3,),
+                Text(Strings.telecoMobile,style: theme.textTheme.headline3,),
                 gapH16,
                 CarouselCustomWidget(widgets:introSlider.map<Widget>((e) => _sliderWidget(e)).toList()),
                 gapH24,
@@ -171,7 +171,7 @@ class HeaderWidget extends StatelessWidget {
       gapH20,
       Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Text(Strings.telfoniBreifIntro),
+        child: Text(Strings.telecoBreifIntro),
       ),
       gapH24,
       _NavigationUserAreaLegalWidget(theme: theme),
@@ -195,7 +195,7 @@ class HeaderWidget extends StatelessWidget {
         color: kBlack,
         child: Center(
           child: Text(
-            'Copyright©2022 telfoni. All rights reserved',textAlign: TextAlign.center,
+            'Copyright©2022 teleco. All rights reserved',textAlign: TextAlign.center,
           ),
         ),
       )

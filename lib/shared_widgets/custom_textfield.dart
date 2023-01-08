@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:telfoni/constants/colors_data.dart';
+import 'package:teleco/constants/colors_data.dart';
 
 class CustomTextField extends StatelessWidget {
   const CustomTextField({Key? key, this.validator, required this.controller, required this.text, this.inputDecoration,  this.editingComplete=false,this.readOnly=false, this.onTap, this.maxLine=1, this.inputType, this.suffixIcon, this.prefixIcon, this.textColor, this.labelColor}) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:telfoni/constants/colors_data.dart';
-import 'package:telfoni/extensions/color_extension.dart';
+import 'package:teleco/constants/colors_data.dart';
+import 'package:teleco/extensions/color_extension.dart';
 
 class CustomCard extends StatelessWidget {
   const CustomCard({Key? key, required this.child, this.color, this.margin, this.padding=4,this.borderRadius, this.width, this.height, this.borderColor}) : super(key: key);

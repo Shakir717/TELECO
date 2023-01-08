@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:telfoni/routing/app_router.dart';
+import 'package:teleco/routing/app_router.dart';
 
 import '../constants/app_assets.dart';
 import '../constants/colors_data.dart';

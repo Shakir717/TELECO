@@ -1,9 +1,9 @@
 
 class AppAsset{
- static String appLogo=_assetName('logo.png');
- static String appLogoMain=_assetName('telfoni.png');
- static String appLogoWhite=_assetName('logwhite.png');
- static String appLogoBlack=_assetName('telfoniblack.png');
+ static String appLogo=_assetName('logo.jpeg');
+ static String appLogoMain=_assetName('logo.jpeg');
+ static String appLogoWhite=_assetName('logo.jpeg');
+ static String appLogoBlack=_assetName('logo.jpeg');
  static String cardIcon=_assetName('cardIcon.png');
  static String chatIcon=_assetName('chatIcon.png');
  static String messageIcon=_assetName('messageIcon.png');

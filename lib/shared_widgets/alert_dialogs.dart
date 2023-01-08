@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:go_router/go_router.dart';
-import 'package:telfoni/constants/app_assets.dart';
+import 'package:teleco/constants/app_assets.dart';
 import '../constants/colors_data.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';

@@ -1,4 +1,4 @@
-name: telfoni
+name: teleco
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -36,17 +36,7 @@ dependencies:
   flutter_riverpod: ^2.0.0-dev.5
   responsive_framework: ^0.2.0
   easy_localization: ^3.0.1
-
-  # firebase
-  #firebase_core: ^1.13.1
-#  firebase_auth: ^3.3.4
-#  cloud_firestore: ^3.1.5
-#  freezed: ^2.0.3+1
-#  freezed_annotation: ^2.0.3
-#  json_serializable: ^6.2.0
-#  internet_connection_checker: ^0.0.1+4
   go_router: ^4.0.0
-
   flutter_launcher_icons: ^0.9.3
   font_awesome_flutter: ^10.1.0
   carousel_slider: ^4.0.0
@@ -63,8 +53,8 @@ flutter_icons:
   ios: true
   adaptive_icon_background: '#2155CD'
   remove_alpha_ios: true
-  image_path_ios: "assets/telfoni.png"
-  image_path_android: "assets/telfoni.png"
+  image_path_ios: "assets/logo.jpeg"
+  image_path_android: "assets/logo.jpeg"
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

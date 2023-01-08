@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:telfoni/constants/app_size.dart';
-import 'package:telfoni/constants/colors_data.dart';
-import 'package:telfoni/features/home/presentation/home_page.dart';
-import 'package:telfoni/shared_widgets/custom_card_view.dart';
-import 'package:telfoni/shared_widgets/custom_scaffold_widget.dart';
+import 'package:teleco/constants/app_size.dart';
+import 'package:teleco/constants/colors_data.dart';
+import 'package:teleco/features/home/presentation/home_page.dart';
+import 'package:teleco/shared_widgets/custom_card_view.dart';
+import 'package:teleco/shared_widgets/custom_scaffold_widget.dart';
 import '../../../constants/string_values.dart';
 import '../../../shared_widgets/custom_image.dart';
 

@@ -2,9 +2,10 @@ class Strings {
   static String envalidOtp = 'invalid OTP',
       bundles = 'Bundles',
       invoice='Invoice',
+      teleco='TELECO',
       invoiceNumber='Invoice number',
       description='Description',
-      telfoniBundles='Telfoni Bundles',
+      telecoBundles='Teleco Bundles',
       date='Date',
       number='Number',
       bundle='Bundle',
@@ -14,7 +15,7 @@ class Strings {
       proceedToPayment='Proceed to Payment',
       purchaseNow = 'Purchase Now',
       selectBundle = 'Select Bundle',
-      telfoniGlobaliccidNumber = 'Telfoni Global ICCID Number',
+      telecoGlobaliccidNumber = 'teleco Global ICCID Number',
       boostYourSpeedNow = 'Boost your speed now',
       boostBundle1GB = 'Boost Bundle 1GB',
       ourBundles = 'Our Bundles',
@@ -37,7 +38,7 @@ class Strings {
       pleaseSetWhereToSentResetLink = 'Please set where to send reset link',
       pleaseEnterDetailsBelow = 'Please enter details below and continue',
       emailverifiedSccussMessage =
-          'You’ve successfully verified your account. Welcome to Telfoni Mobile.',
+          'You’ve successfully verified your account. Welcome to teleco Mobile.',
       ifForgotPassword = 'Forgot Password?',
       navigation = 'Navigation',
       registration = 'Registration',
@@ -56,7 +57,7 @@ class Strings {
       login = 'Login',
       doNotHaveAccount = 'Don’t have an account? ',
       registerNow = 'Register Now',
-      registerForTelifoni='Register\nfor Telefoni offers',
+      registerForTelifoni='Register\nfor TELECO offers',
       register = 'Register',
       paymentAndRecharge = 'Payment And Recharge',
       payment='Payment',
@@ -71,12 +72,12 @@ class Strings {
       help = 'Help',
       home = 'Home',
       chatWithUs = 'Chat With Us',
-      telfoniBreifIntro =
-          'Telfoni is a mobile operator started back in 2013, currently we offer UK services through our Telfoni UK operation, in addition to our new European service through our new Telfoni Global service.',
+      telecoBreifIntro =
+          'teleco is a mobile operator started back in 2013, currently we offer UK services through our teleco UK operation, in addition to our new European service through our new teleco Global service.',
       buyNewSimCard = 'Buy New Sim Card',
       quickRecharge = 'Quick Recharge',
       welcomeTo = 'Welcome to',
-      telfoniMobile = 'Telfoni Mobile',
+      telecoMobile = 'teleco Mobile',
       sliderText5 = '24 hour multi lingual help desk',
       sliderText4 = 'We ship everywhere',
       duration = 'Duration',
@@ -108,9 +109,9 @@ class Strings {
       sliderText3 =
           'Stay connected across multiple countries without any roaming charges',
       sliderText2 =
-          'One service, multiple countries Travel with Telfoni to 40 destinations in Europe and USA, including Turkey',
+          'One service, multiple countries Travel with teleco to 40 destinations in Europe and USA, including Turkey',
       sliderText1 =
           'Weekly and monthly plans with unlimited high speed data, Generous fair use policy is applied.',
       aboutUsPageParagraph =
-          'Telfoni mobile offers mobile communication services since 2009, and we are operational in more that 40 countries in Europe including the USA and Turkiye.';
+          'teleco mobile offers mobile communication services since 2009, and we are operational in more that 40 countries in Europe including the USA and Turkiye.';
 }

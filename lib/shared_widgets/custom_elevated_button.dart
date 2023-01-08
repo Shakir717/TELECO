@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:telfoni/constants/colors_data.dart';
+import 'package:teleco/constants/colors_data.dart';
 
 class CustomElevatedButton extends StatelessWidget {
   final VoidCallback? onPress;

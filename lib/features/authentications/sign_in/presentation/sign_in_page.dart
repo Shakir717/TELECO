@@ -2,15 +2,15 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
-import 'package:telfoni/constants/app_assets.dart';
-import 'package:telfoni/constants/colors_data.dart';
-import 'package:telfoni/constants/string_values.dart';
-import 'package:telfoni/extensions/color_extension.dart';
-import 'package:telfoni/features/authentications/forgot_password/presentation/forgot_password_page.dart';
-import 'package:telfoni/features/authentications/sign_up/presentation/sign_up_page.dart';
-import 'package:telfoni/shared_widgets/alert_dialogs.dart';
-import 'package:telfoni/shared_widgets/custom_elevated_button.dart';
-import 'package:telfoni/shared_widgets/custom_textfield.dart';
+import 'package:teleco/constants/app_assets.dart';
+import 'package:teleco/constants/colors_data.dart';
+import 'package:teleco/constants/string_values.dart';
+import 'package:teleco/extensions/color_extension.dart';
+import 'package:teleco/features/authentications/forgot_password/presentation/forgot_password_page.dart';
+import 'package:teleco/features/authentications/sign_up/presentation/sign_up_page.dart';
+import 'package:teleco/shared_widgets/alert_dialogs.dart';
+import 'package:teleco/shared_widgets/custom_elevated_button.dart';
+import 'package:teleco/shared_widgets/custom_textfield.dart';
 
 import '../../../../constants/app_size.dart';
 class SignInPage extends StatelessWidget {

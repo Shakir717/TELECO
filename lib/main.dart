@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 import 'package:responsive_framework/utils/scroll_behavior.dart';
-import 'package:telfoni/routing/app_router.dart';
-import 'package:telfoni/utils/app_theme.dart';
-import 'package:telfoni/utils/logger.dart';
+import 'package:teleco/routing/app_router.dart';
+import 'package:teleco/utils/app_theme.dart';
+import 'package:teleco/utils/logger.dart';
 import 'constants/colors_data.dart';
 import 'extensions/localization.dart';
 
@@ -34,7 +34,7 @@ class MyApp extends ConsumerWidget {
       routeInformationProvider: goRouter.routeInformationProvider,
       routeInformationParser: goRouter.routeInformationParser,
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: '',
       theme: AppTheme.instance.lightTheme(),
       localizationsDelegates:context.localizationDelegates ,
       supportedLocales: context.supportedLocales,

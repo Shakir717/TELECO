@@ -1,8 +1,8 @@
 import 'package:go_router/go_router.dart';
-import 'package:telfoni/constants/app_assets.dart';
-import 'package:telfoni/constants/app_size.dart';
-import 'package:telfoni/routing/app_router.dart';
-import 'package:telfoni/shared_widgets/custom_elevated_button.dart';
+import 'package:teleco/constants/app_assets.dart';
+import 'package:teleco/constants/app_size.dart';
+import 'package:teleco/routing/app_router.dart';
+import 'package:teleco/shared_widgets/custom_elevated_button.dart';
 
 import '../constants/colors_data.dart';
 import 'package:flutter/material.dart';

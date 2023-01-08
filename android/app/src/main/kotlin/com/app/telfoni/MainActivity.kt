@@ -1,4 +1,4 @@
-package com.app.telfoni
+package com.app.teleco
 
 import io.flutter.embedding.android.FlutterActivity
 

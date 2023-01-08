@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:telfoni/features/invoice/presentation/invoice.dart';
-import 'package:telfoni/shared_widgets/alert_dialogs.dart';
-import 'package:telfoni/shared_widgets/custom_elevated_button.dart';
-import 'package:telfoni/shared_widgets/custom_textfield.dart';
+import 'package:teleco/features/invoice/presentation/invoice.dart';
+import 'package:teleco/shared_widgets/alert_dialogs.dart';
+import 'package:teleco/shared_widgets/custom_elevated_button.dart';
+import 'package:teleco/shared_widgets/custom_textfield.dart';
 
 import '../../../constants/app_assets.dart';
 import '../../../constants/app_size.dart';
@@ -108,7 +108,7 @@ class PaymentAndRecharge extends StatelessWidget {
                       gapH16,
                       Align(
                           alignment: Alignment.bottomLeft,
-                          child: Text(Strings.telfoniGlobaliccidNumber)),
+                          child: Text(Strings.telecoGlobaliccidNumber)),
                       gapH20,
                       Row(
                         mainAxisSize: MainAxisSize.min,

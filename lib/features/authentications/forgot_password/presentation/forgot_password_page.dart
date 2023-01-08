@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:telfoni/features/authentications/rese_password/presentation/reset_password.dart';
-import 'package:telfoni/routing/app_router.dart';
-import 'package:telfoni/shared_widgets/alert_dialogs.dart';
+import 'package:teleco/features/authentications/rese_password/presentation/reset_password.dart';
+import 'package:teleco/routing/app_router.dart';
+import 'package:teleco/shared_widgets/alert_dialogs.dart';
 
 import '../../../../constants/app_size.dart';
 import '../../../../constants/colors_data.dart';

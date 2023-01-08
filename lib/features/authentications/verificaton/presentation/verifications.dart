@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
-import 'package:telfoni/constants/app_assets.dart';
-import 'package:telfoni/constants/app_size.dart';
-import 'package:telfoni/constants/colors_data.dart';
-import 'package:telfoni/constants/string_values.dart';
-import 'package:telfoni/shared_widgets/alert_dialogs.dart';
+import 'package:teleco/constants/app_assets.dart';
+import 'package:teleco/constants/app_size.dart';
+import 'package:teleco/constants/colors_data.dart';
+import 'package:teleco/constants/string_values.dart';
+import 'package:teleco/shared_widgets/alert_dialogs.dart';
 import '../../../../shared_widgets/custom_elevated_button.dart';
 import '../../../../shared_widgets/custom_image.dart';
 import '../../set_password/presentation/set_password.dart';

@@ -1,5 +1,5 @@
-import 'package:telfoni/constants/app_assets.dart';
-import 'package:telfoni/constants/string_values.dart';
+import 'package:teleco/constants/app_assets.dart';
+import 'package:teleco/constants/string_values.dart';
 
 class IntroSliderModel{
   final String description,image;

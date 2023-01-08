@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.telfoni">
+    package="com.app.teleco">
    <application
-        android:label="telfoni"
+        android:label="TELECO"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

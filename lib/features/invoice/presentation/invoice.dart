@@ -1,11 +1,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:telfoni/constants/app_assets.dart';
-import 'package:telfoni/constants/app_size.dart';
-import 'package:telfoni/constants/colors_data.dart';
-import 'package:telfoni/routing/app_router.dart';
-import 'package:telfoni/shared_widgets/custom_elevated_button.dart';
+import 'package:teleco/constants/app_assets.dart';
+import 'package:teleco/constants/app_size.dart';
+import 'package:teleco/constants/colors_data.dart';
+import 'package:teleco/routing/app_router.dart';
+import 'package:teleco/shared_widgets/custom_elevated_button.dart';
 
 import '../../../constants/string_values.dart';
 import '../../../shared_widgets/custom_image.dart';
@@ -56,7 +56,7 @@ class Invoice extends StatelessWidget {
             children: [
               Text(Strings.description,style: theme.textTheme.caption!.copyWith(color: kBlack,fontSize: 12),),
               gapH8,
-              Text(Strings.telfoniBundles,style: theme.textTheme.caption!.copyWith(color: kBlack,fontWeight: FontWeight.w600),),
+              Text(Strings.telecoBundles,style: theme.textTheme.caption!.copyWith(color: kBlack,fontWeight: FontWeight.w600),),
             ],
           ),
         ],),

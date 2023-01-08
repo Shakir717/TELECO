@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
-import 'package:telfoni/constants/colors_data.dart';
+import 'package:teleco/constants/colors_data.dart';
 
 
 

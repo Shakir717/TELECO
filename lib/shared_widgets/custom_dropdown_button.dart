@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:telfoni/constants/colors_data.dart';
+import 'package:teleco/constants/colors_data.dart';
 
 
 class CustomDropDownButton extends ConsumerStatefulWidget {

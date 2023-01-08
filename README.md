@@ -1,4 +1,4 @@
-# telfoni
+# teleco
 
 A new Flutter project.
 
